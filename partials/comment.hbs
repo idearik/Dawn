@@ -1,7 +1,15 @@
 {{!-- {{#if access}}
 <div class="gh-canvas">
     <div class="comment">
-        If you want to embed comments, this is a good place to do it!
+        <div id="hyvor-talk-view"></div>
+<script type="text/javascript">
+    var HYVOR_TALK_WEBSITE = 6247;
+    var HYVOR_TALK_CONFIG = {
+        url: false,
+        id: "{{comment_id}}"
+    };
+</script>
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
     </div>
 </div>
 {{/if}} --}}
